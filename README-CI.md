@@ -15,4 +15,4 @@ PART 2.
   
 PART 3. 
  ![image](https://user-images.githubusercontent.com/93290208/228703027-def46884-bdab-4f36-ae80-68f5674f6cb6.png)
-Source used: https://www.atlassian.com/continuous-delivery/continuous-integration/tools
+Source used: Rehkopf, M. "Continuous integration tools". _Atlassian_.  https://www.atlassian.com/continuous-delivery/continuous-integration/tools [Accessed 3/29/2023]
