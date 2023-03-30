@@ -13,4 +13,6 @@ PART 2.
   
   E. A Github workflow is an automated process (usually running in a CLI) that runs one of a few events based on a YAML file that is in a github repository, which can be defined to trigger on the user's command or set to trigger under certain conditions. [Source:https://docs.github.com/en/actions/using-workflows/about-workflows] Workflows can be triggered based on all sorts of events, such as pushing and pulling from all or specific repositories, creating or removing issues in respositories, and generally any other activity within a repository. Workflows can also be triggered on a regular, timed basis. Custom-to-the-project variables would be things like language versions and required dependencies, which Workflows can be used to keep all the machines working on a project in (relatively) the same work environment.
   
- 3. A. 
+PART 3. 
+ ![image](https://user-images.githubusercontent.com/93290208/228703027-def46884-bdab-4f36-ae80-68f5674f6cb6.png)
+Source used: https://www.atlassian.com/continuous-delivery/continuous-integration/tools
