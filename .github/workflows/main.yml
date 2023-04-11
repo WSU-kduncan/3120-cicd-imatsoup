@@ -28,7 +28,6 @@ jobs:
         with:
           images: |
             imatsoup/ceg3120-john
-            ghcr.io/WSU-kduncan/3120-cicd-imatsoup/
           tags: |
             type=schedule
             type=ref,event=branch
