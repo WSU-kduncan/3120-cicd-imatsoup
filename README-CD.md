@@ -9,7 +9,14 @@ Link to the dockerhub repo: https://hub.docker.com/repository/docker/imatsoup/ce
 Part 2
 --------
 
-Docker installation: update the package index with sudo apt-get update, use sudo apt-get install to install any missing dependencies (ca-certificates, curl, gnupg), setup the official gpg key and dockerhub repository, then type sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin to install docker on the cli. <a href="https://docs.docker.com/engine/install/ubuntu/">[SOURCE]</a>
+Docker installation: update the package index with sudo apt-get update, use sudo apt-get install to install any missing dependencies (ca-certificates, curl, gnupg), setup the official gpg key and dockerhub repository, then type sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin to install docker on the cli. <a href="https://docs.docker.com/engine/install/ubuntu/">[SOURCE]</a> <br/>
+
+Script contents: #!bin/bash
+                 #Pull the latest docker image from dockerhub  <br/>
+                 sudo docker pull imatsoup/ceg3120-john:latest <br/>
+                 #Restart the docker container <br/>
+                 sudo docker restart httpd-docker-01 <br/>
+                 
 
 Part 3
 --------
