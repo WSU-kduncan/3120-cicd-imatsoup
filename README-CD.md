@@ -28,6 +28,7 @@ Configuring github to use the webhook: Under settings, select "webhooks", then e
 Configuring dockerhub to use the webhook: under general settings at the desired repository, select "webhooks", then enter a name and url for your new webhook before pressing "create" to add the webhook to dockerhub. <br/>
 
 In our workflow, we can add a "redeploy" job that will trigger the webhook whenever we build and push to dockerhub : <br/>
+
 ![image](https://user-images.githubusercontent.com/93290208/231549963-59f0e289-bc96-4a42-9224-977a313f5d83.png) <br/>
 
 
