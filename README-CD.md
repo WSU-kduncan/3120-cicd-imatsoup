@@ -39,5 +39,6 @@ Part 3
 --------
 <br/>
 My best attempt at a diagram explaining CD how I understand it at this time. <br/>
+
 ![image](https://user-images.githubusercontent.com/93290208/231564535-ff1b91ba-2b5e-4e60-8e1f-632d3f8711f4.png)
 
