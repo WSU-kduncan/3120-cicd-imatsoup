@@ -1,0 +1,7 @@
+[
+ {
+ "id": "redeploy-webhook",
+ "executed-command": "/home/ubuntu/3120-cicd-imatsoup/deployment/dockerscript.sh",
+ "command-working-directory": "/var/webhook"
+ }
+]
