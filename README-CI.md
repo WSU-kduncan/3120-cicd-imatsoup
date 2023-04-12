@@ -5,6 +5,7 @@ PART 2.
 
   A. On the Docker Hub main page, once you've logged in, select "Repostiories, then click the blue button labeled "Create Repository". Name the repository, add a description if its desired, then make sure 'Public' visibility is selected, then click "Create".
   
+
   B. We need to create a new access token on Docker Hub to login from the CLI. To do that, on the Docker Hub website we click "Settings", then we click security, and under "Access Tokens" we click "New Access Token". We write a description for the token, copy the token down, then run the following command in our CLI: "docker login -u yourusername". We then enter our copied token when prompted for a password to login.
   
   C. First we need to rename our repository to match the repository we made on Docker Hub using "sudo docker tag currentname username/reponame:tag". Then just type "sudo docker push yourusername/yourrepo" to push your repository to Docker Hub.
